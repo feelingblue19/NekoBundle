@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010087A221A80A410016891C /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010087A121A80A410016891C /* MenuController.swift */; };
+		01607D2321A9BAE200BF46FD /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01607D2221A9BAE200BF46FD /* AboutController.swift */; };
+		01607D2521A9F8A900BF46FD /* CheckLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01607D2421A9F8A900BF46FD /* CheckLoginController.swift */; };
+		017C795821A6F67C00C557E6 /* Bundle Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 017C795421A6F67B00C557E6 /* Bundle Icon.png */; };
+		017C795921A6F67C00C557E6 /* Store Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 017C795521A6F67B00C557E6 /* Store Icon.png */; };
+		017C795A21A6F67C00C557E6 /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 017C795621A6F67C00C557E6 /* About.png */; };
+		017C795B21A6F67C00C557E6 /* Home Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 017C795721A6F67C00C557E6 /* Home Icon.png */; };
+		019963C4219319A1008CD7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019963C3219319A1008CD7EB /* AppDelegate.swift */; };
+		019963C6219319A1008CD7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019963C5219319A1008CD7EB /* ViewController.swift */; };
+		019963C9219319A1008CD7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019963C7219319A1008CD7EB /* Main.storyboard */; };
+		019963CB219319AA008CD7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019963CA219319AA008CD7EB /* Assets.xcassets */; };
+		019963CE219319AA008CD7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019963CC219319AA008CD7EB /* LaunchScreen.storyboard */; };
+		019963D721933DD2008CD7EB /* school.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019963D621933DD2008CD7EB /* school.jpg */; };
+		019963D92193408C008CD7EB /* RegisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019963D82193408C008CD7EB /* RegisController.swift */; };
+		019963DB21934950008CD7EB /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019963DA21934950008CD7EB /* EditProfileController.swift */; };
+		019963DD2193501C008CD7EB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019963DC2193501C008CD7EB /* User.swift */; };
+		5303302D0127183CAE740DD7 /* Pods_NekoBundle_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085B90CE04C71D31D904D698 /* Pods_NekoBundle_ios.framework */; };
+		593AD07321AB8CFA0013520D /* TableGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD07221AB8CFA0013520D /* TableGames.swift */; };
+		593AD07521AB92320013520D /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD07421AB92320013520D /* Games.swift */; };
+		593AD07721AB9B860013520D /* DetailGamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD07621AB9B860013520D /* DetailGamesController.swift */; };
+		593AD07921ABC1AF0013520D /* BundleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD07821ABC1AF0013520D /* BundleController.swift */; };
+		593AD07B21ABC5870013520D /* TableBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD07A21ABC5870013520D /* TableBundle.swift */; };
+		59BD189021ABC80D003C0FBA /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD188F21ABC80D003C0FBA /* Bundle.swift */; };
+		59BD189221ABD56A003C0FBA /* DetailBundleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD189121ABD56A003C0FBA /* DetailBundleController.swift */; };
+		5D9A71C221A8FF2100EB3131 /* OHCircleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A71C121A8FF2000EB3131 /* OHCircleSegue.swift */; };
+		5D9A71C421A90D5300EB3131 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A71C321A90D5300EB3131 /* HomeController.swift */; };
+		5D9A71C821A9184900EB3131 /* GamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A71C721A9184900EB3131 /* GamesController.swift */; };
+		5DC2CFBE21A2876100506A88 /* Login&Signup Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2CFBD21A2876100506A88 /* Login&Signup Background.jpg */; };
+		5DC2CFC021A288CC00506A88 /* Login&Signup Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2CFBF21A288CC00506A88 /* Login&Signup Logo.png */; };
+		5E1ADAE621AC2CB300175341 /* HistoryStoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ADAE521AC2CB300175341 /* HistoryStoreController.swift */; };
+		5E1ADAE821AC309100175341 /* HistoryBundleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ADAE721AC309100175341 /* HistoryBundleController.swift */; };
+		5E1ADAEA21AC316D00175341 /* TransaksiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ADAE921AC316D00175341 /* TransaksiStore.swift */; };
+		5E1ADAEC21AC31DB00175341 /* TransaksiBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ADAEB21AC31DB00175341 /* TransaksiBundle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010087A121A80A410016891C /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		01607D2221A9BAE200BF46FD /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		01607D2421A9F8A900BF46FD /* CheckLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLoginController.swift; sourceTree = "<group>"; };
+		017C795421A6F67B00C557E6 /* Bundle Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bundle Icon.png"; sourceTree = "<group>"; };
+		017C795521A6F67B00C557E6 /* Store Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Store Icon.png"; sourceTree = "<group>"; };
+		017C795621A6F67C00C557E6 /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		017C795721A6F67C00C557E6 /* Home Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Icon.png"; sourceTree = "<group>"; };
+		019963C0219319A1008CD7EB /* NekoBundle-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NekoBundle-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		019963C3219319A1008CD7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		019963C5219319A1008CD7EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		019963C8219319A1008CD7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019963CA219319AA008CD7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		019963CD219319AA008CD7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		019963CF219319AA008CD7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019963D621933DD2008CD7EB /* school.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = school.jpg; sourceTree = "<group>"; };
+		019963D82193408C008CD7EB /* RegisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisController.swift; sourceTree = "<group>"; };
+		019963DA21934950008CD7EB /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		019963DC2193501C008CD7EB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		085B90CE04C71D31D904D698 /* Pods_NekoBundle_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoBundle_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		593AD07221AB8CFA0013520D /* TableGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableGames.swift; sourceTree = "<group>"; };
+		593AD07421AB92320013520D /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		593AD07621AB9B860013520D /* DetailGamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGamesController.swift; sourceTree = "<group>"; };
+		593AD07821ABC1AF0013520D /* BundleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleController.swift; sourceTree = "<group>"; };
+		593AD07A21ABC5870013520D /* TableBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBundle.swift; sourceTree = "<group>"; };
+		59BD188F21ABC80D003C0FBA /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		59BD189121ABD56A003C0FBA /* DetailBundleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBundleController.swift; sourceTree = "<group>"; };
+		5D9A71C121A8FF2000EB3131 /* OHCircleSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OHCircleSegue.swift; sourceTree = "<group>"; };
+		5D9A71C321A90D5300EB3131 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5D9A71C721A9184900EB3131 /* GamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesController.swift; sourceTree = "<group>"; };
+		5DC2CFBD21A2876100506A88 /* Login&Signup Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Login&Signup Background.jpg"; sourceTree = "<group>"; };
+		5DC2CFBF21A288CC00506A88 /* Login&Signup Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login&Signup Logo.png"; sourceTree = "<group>"; };
+		5E1ADAE521AC2CB300175341 /* HistoryStoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreController.swift; sourceTree = "<group>"; };
+		5E1ADAE721AC309100175341 /* HistoryBundleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryBundleController.swift; sourceTree = "<group>"; };
+		5E1ADAE921AC316D00175341 /* TransaksiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiStore.swift; sourceTree = "<group>"; };
+		5E1ADAEB21AC31DB00175341 /* TransaksiBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiBundle.swift; sourceTree = "<group>"; };
+		88DDFDAF59FBA4E1D7B4037D /* Pods-NekoBundle-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoBundle-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoBundle-ios/Pods-NekoBundle-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F0786EFF2A833D67FB7AEC94 /* Pods-NekoBundle-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoBundle-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoBundle-ios/Pods-NekoBundle-ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019963BD219319A1008CD7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5303302D0127183CAE740DD7 /* Pods_NekoBundle_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019963B7219319A1008CD7EB = {
+			isa = PBXGroup;
+			children = (
+				019963D5219332E8008CD7EB /* img */,
+				019963C2219319A1008CD7EB /* NekoBundle-ios */,
+				019963C1219319A1008CD7EB /* Products */,
+				E02C2307EC61FDBF64FEFA6A /* Pods */,
+				3E3DDB7DC195A81AC56A37F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		019963C1219319A1008CD7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019963C0219319A1008CD7EB /* NekoBundle-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019963C2219319A1008CD7EB /* NekoBundle-ios */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A71C121A8FF2000EB3131 /* OHCircleSegue.swift */,
+				019963C3219319A1008CD7EB /* AppDelegate.swift */,
+				019963C5219319A1008CD7EB /* ViewController.swift */,
+				019963C7219319A1008CD7EB /* Main.storyboard */,
+				019963CA219319AA008CD7EB /* Assets.xcassets */,
+				019963CC219319AA008CD7EB /* LaunchScreen.storyboard */,
+				019963CF219319AA008CD7EB /* Info.plist */,
+				019963D82193408C008CD7EB /* RegisController.swift */,
+				019963DA21934950008CD7EB /* EditProfileController.swift */,
+				019963DC2193501C008CD7EB /* User.swift */,
+				010087A121A80A410016891C /* MenuController.swift */,
+				5D9A71C321A90D5300EB3131 /* HomeController.swift */,
+				5D9A71C721A9184900EB3131 /* GamesController.swift */,
+				01607D2221A9BAE200BF46FD /* AboutController.swift */,
+				01607D2421A9F8A900BF46FD /* CheckLoginController.swift */,
+				593AD07221AB8CFA0013520D /* TableGames.swift */,
+				593AD07421AB92320013520D /* Games.swift */,
+				593AD07621AB9B860013520D /* DetailGamesController.swift */,
+				593AD07821ABC1AF0013520D /* BundleController.swift */,
+				593AD07A21ABC5870013520D /* TableBundle.swift */,
+				59BD188F21ABC80D003C0FBA /* Bundle.swift */,
+				59BD189121ABD56A003C0FBA /* DetailBundleController.swift */,
+				5E1ADAE521AC2CB300175341 /* HistoryStoreController.swift */,
+				5E1ADAE721AC309100175341 /* HistoryBundleController.swift */,
+				5E1ADAE921AC316D00175341 /* TransaksiStore.swift */,
+				5E1ADAEB21AC31DB00175341 /* TransaksiBundle.swift */,
+			);
+			path = "NekoBundle-ios";
+			sourceTree = "<group>";
+		};
+		019963D5219332E8008CD7EB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				017C795621A6F67C00C557E6 /* About.png */,
+				017C795421A6F67B00C557E6 /* Bundle Icon.png */,
+				017C795721A6F67C00C557E6 /* Home Icon.png */,
+				017C795521A6F67B00C557E6 /* Store Icon.png */,
+				5DC2CFBF21A288CC00506A88 /* Login&Signup Logo.png */,
+				5DC2CFBD21A2876100506A88 /* Login&Signup Background.jpg */,
+				019963D621933DD2008CD7EB /* school.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		3E3DDB7DC195A81AC56A37F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				085B90CE04C71D31D904D698 /* Pods_NekoBundle_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E02C2307EC61FDBF64FEFA6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88DDFDAF59FBA4E1D7B4037D /* Pods-NekoBundle-ios.debug.xcconfig */,
+				F0786EFF2A833D67FB7AEC94 /* Pods-NekoBundle-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019963BF219319A1008CD7EB /* NekoBundle-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019963D2219319AA008CD7EB /* Build configuration list for PBXNativeTarget "NekoBundle-ios" */;
+			buildPhases = (
+				22EC7EC48B9D4BCE7808ECBC /* [CP] Check Pods Manifest.lock */,
+				019963BC219319A1008CD7EB /* Sources */,
+				019963BD219319A1008CD7EB /* Frameworks */,
+				019963BE219319A1008CD7EB /* Resources */,
+				6A3BB49E6799C749733469CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NekoBundle-ios";
+			productName = "inet-reminder-ios";
+			productReference = 019963C0219319A1008CD7EB /* NekoBundle-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019963B8219319A1008CD7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ryandi Widjaja";
+				TargetAttributes = {
+					019963BF219319A1008CD7EB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 019963BB219319A1008CD7EB /* Build configuration list for PBXProject "NekoBundle-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019963B7219319A1008CD7EB;
+			productRefGroup = 019963C1219319A1008CD7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019963BF219319A1008CD7EB /* NekoBundle-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019963BE219319A1008CD7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017C795A21A6F67C00C557E6 /* About.png in Resources */,
+				5DC2CFC021A288CC00506A88 /* Login&Signup Logo.png in Resources */,
+				017C795B21A6F67C00C557E6 /* Home Icon.png in Resources */,
+				019963CE219319AA008CD7EB /* LaunchScreen.storyboard in Resources */,
+				019963D721933DD2008CD7EB /* school.jpg in Resources */,
+				019963CB219319AA008CD7EB /* Assets.xcassets in Resources */,
+				5DC2CFBE21A2876100506A88 /* Login&Signup Background.jpg in Resources */,
+				017C795821A6F67C00C557E6 /* Bundle Icon.png in Resources */,
+				019963C9219319A1008CD7EB /* Main.storyboard in Resources */,
+				017C795921A6F67C00C557E6 /* Store Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22EC7EC48B9D4BCE7808ECBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NekoBundle-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3BB49E6799C749733469CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NekoBundle-ios/Pods-NekoBundle-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NekoBundle-ios/Pods-NekoBundle-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019963BC219319A1008CD7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019963DD2193501C008CD7EB /* User.swift in Sources */,
+				01607D2321A9BAE200BF46FD /* AboutController.swift in Sources */,
+				5E1ADAEA21AC316D00175341 /* TransaksiStore.swift in Sources */,
+				593AD07521AB92320013520D /* Games.swift in Sources */,
+				019963DB21934950008CD7EB /* EditProfileController.swift in Sources */,
+				593AD07721AB9B860013520D /* DetailGamesController.swift in Sources */,
+				019963D92193408C008CD7EB /* RegisController.swift in Sources */,
+				593AD07321AB8CFA0013520D /* TableGames.swift in Sources */,
+				5E1ADAEC21AC31DB00175341 /* TransaksiBundle.swift in Sources */,
+				019963C6219319A1008CD7EB /* ViewController.swift in Sources */,
+				5E1ADAE821AC309100175341 /* HistoryBundleController.swift in Sources */,
+				5E1ADAE621AC2CB300175341 /* HistoryStoreController.swift in Sources */,
+				01607D2521A9F8A900BF46FD /* CheckLoginController.swift in Sources */,
+				5D9A71C421A90D5300EB3131 /* HomeController.swift in Sources */,
+				010087A221A80A410016891C /* MenuController.swift in Sources */,
+				5D9A71C821A9184900EB3131 /* GamesController.swift in Sources */,
+				593AD07921ABC1AF0013520D /* BundleController.swift in Sources */,
+				59BD189021ABC80D003C0FBA /* Bundle.swift in Sources */,
+				59BD189221ABD56A003C0FBA /* DetailBundleController.swift in Sources */,
+				019963C4219319A1008CD7EB /* AppDelegate.swift in Sources */,
+				593AD07B21ABC5870013520D /* TableBundle.swift in Sources */,
+				5D9A71C221A8FF2100EB3131 /* OHCircleSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		019963C7219319A1008CD7EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019963C8219319A1008CD7EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		019963CC219319AA008CD7EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019963CD219319AA008CD7EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019963D0219319AA008CD7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		019963D1219319AA008CD7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019963D3219319AA008CD7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DDFDAF59FBA4E1D7B4037D /* Pods-NekoBundle-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B66WAXLY7;
+				INFOPLIST_FILE = "NekoBundle-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryandiwdjj.NekoBundle-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		019963D4219319AA008CD7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0786EFF2A833D67FB7AEC94 /* Pods-NekoBundle-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B66WAXLY7;
+				INFOPLIST_FILE = "NekoBundle-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryandiwdjj.NekoBundle-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019963BB219319A1008CD7EB /* Build configuration list for PBXProject "NekoBundle-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019963D0219319AA008CD7EB /* Debug */,
+				019963D1219319AA008CD7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019963D2219319AA008CD7EB /* Build configuration list for PBXNativeTarget "NekoBundle-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019963D3219319AA008CD7EB /* Debug */,
+				019963D4219319AA008CD7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019963B8219319A1008CD7EB /* Project object */;
+}

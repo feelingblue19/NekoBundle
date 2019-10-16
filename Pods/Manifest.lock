@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.8.0)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - KYDrawerController (2.1.0)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - KYDrawerController
+  - NVActivityIndicatorView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - KYDrawerController
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+
+PODFILE CHECKSUM: 65705d7ad24e758bc7f16fa2220ca4effc650f1a
+
+COCOAPODS: 1.5.3
